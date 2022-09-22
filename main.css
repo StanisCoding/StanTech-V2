@@ -1,0 +1,40 @@
+.circle {
+  border-radius: 3em;
+  border-left:  white;
+  border: solid 1px;
+  box-shadow: rgb(27, 27, 27) 0px 20px 30px -10px; ;
+}
+
+
+@media(min-width: 768px){
+  .news-input{
+    width: 50%;
+  }
+}
+
+
+body::before{
+  display: block;
+  content: "" ;
+  height: 60px;
+
+}
+
+
+
+.font{
+  font-size: 3rem;
+}
+
+.right{
+  border-right: solid black 1px;
+}
+
+
+@media(min-width: 768px){
+  .right{
+    border-right: solid black 1px;
+    
+
+  }
+}
